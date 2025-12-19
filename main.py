@@ -2,7 +2,7 @@ import os
 import time
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
-def add_server_time(server_url="https://hub.weirdhost.xyz/server/6ba234bb"):
+def add_server_time(server_url="https://hub.weirdhost.xyz/auth/login"):
     pterodactyl_email = os.environ.get('PTERODACTYL_EMAIL')
     pterodactyl_password = os.environ.get('PTERODACTYL_PASSWORD')
 
